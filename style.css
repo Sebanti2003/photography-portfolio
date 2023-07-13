@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right,#041308,#0b3317);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container1{
+    margin-top: 80px;
+    width:396px;
+    height: 222px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding-left: 5px;
+
+
+
+}
+.container2{
+    width:651px;
+    height: 486px;
+    /* border:1px solid black; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 120px;
+    padding-top: 5px;
+    
+
+
+
+}
+#h1{
+    font-family: 'Bodoni Moda', serif;
+    margin-bottom: 19px;
+}
+#p1{
+    font-family: 'Bacasime Antique', serif;
+    margin-left: 2px;
+    font-size: 18px;
+    text-align: center;
+}
+.box{
+    background-size: cover;
+    background-position: top;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+}
+.box:hover{
+    background-position: center;
+    background-color: rgb(59, 62, 65);
+    box-shadow: 20px 20px 2px black;
+    cursor: pointer;
+}
+#box-1{
+    background-image: url(./images\ \(5\).jpeg);
+    background-repeat: none;
+    grid-row: span 2;
+    background-position: top;
+}
+#box-2{
+    background-image: url(./download\ \(2\).jpeg);
+    background-repeat: none;
+    grid-column: span 2;
+
+}
+#box-3{
+    background-image: url(./download\ \(3\).jpeg);
+    background-repeat: none;
+}
+#box-4{
+    background-image: url(./download\ \(4\).jpeg);
+    background-repeat: none;
+    background-position: left;
+   
+    grid-row: span 2;
+    
+    
+}
+#box-5{
+    background-image: url(./download\ \(5\).jpeg);
+    background-repeat: none;
+    grid-column: span 2;
+    
+    
+}
+#box-6{
+    background-image: url(./images\ \(1\).jpeg);
+    background-repeat: none;
+}
+#box-7{
+    background-image: url(./download\ \(7\).jpeg);
+    background-repeat: none;
+    grid-column: span 2; 
+}
+
+
+
+
